@@ -1,3 +1,3 @@
 import React from 'react';
 
-export default () => <h1>Bom Dia gente boa</h1>;
+export default props => <h1>Bom dia{props.name}</h1>;

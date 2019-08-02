@@ -1,6 +1,11 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 
-import BomDia from './componentes/BomDia';
+import Saudacao from './componentes/Saudacao';
 
-ReactDom.render(<BomDia />, document.getElementById('root'));
+ReactDOM.render(
+  <div>
+    <Saudacao tipo="Bom dia" nome="Lucas" />
+  </div>,
+  document.getElementById('root')
+);
