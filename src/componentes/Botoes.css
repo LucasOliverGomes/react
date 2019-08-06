@@ -1,0 +1,19 @@
+.Botoes {
+  background: darkmagenta;
+}
+
+.Botoes span {
+  font-size: 150px;
+  color: springgreen;
+  font-family: 'Brush Script MT';
+}
+.Botoes button {
+  font-size: 100px;
+  color: rgb(255, 0, 0);
+  background: rgb(238, 231, 130);
+
+}
+body {
+  background-color: darkmagenta;
+
+}

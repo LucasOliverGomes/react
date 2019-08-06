@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Saudacao from './componentes/Saudacao';
+import Botoes from './componentes/Botoes';
 
 ReactDOM.render(
   <div>
-    <Saudacao tipo="Bom dia" nome="Lucas" />
+    <Botoes />
   </div>,
   document.getElementById('root')
 );
